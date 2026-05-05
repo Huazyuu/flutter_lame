@@ -12,7 +12,10 @@ dependencies:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
 
-  dart_lame: ^1.0.3
+  dart_lame:
+    git:
+      url: https://github.com/Huazyuu/dart_lame.git
+      ref: main
 
 dev_dependencies:
   flutter_test:
